@@ -27,7 +27,6 @@ void setup()
   ArduinoOTA.begin();
 }
 
-// the loop function runs over and over again forever
 void loop()
 {
   ArduinoOTA.handle();
